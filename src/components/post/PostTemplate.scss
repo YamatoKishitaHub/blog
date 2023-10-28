@@ -1,0 +1,57 @@
+@import '../../mixins.scss';
+
+.postTemplatePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+
+  .title {
+    width: 55%;
+    text-align: center;
+  }
+
+  .text {
+    width: 70%;
+    margin-top: 20px;
+    font-size: 20px;
+    
+    pre {
+      white-space: break-spaces;
+    }
+  }
+
+  .editAndDelete {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+    gap: 10px;
+
+    button {
+      padding: 5px 10px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: all 0.3s;
+      gap: 5px;
+
+      &:hover {
+        transform: translateY(2px);
+      }
+    }
+  }
+
+  a {
+    button {
+      padding: 5px 10px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: all 0.3s;
+  
+      &:hover {
+        transform: translateY(2px);
+      }
+    }
+  }
+}

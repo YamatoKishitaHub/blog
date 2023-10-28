@@ -1,0 +1,52 @@
+.editPostPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  form {
+    display: flex;
+    gap: 10px;
+
+    input {
+      width: 20px;
+    }
+
+    label {
+      user-select: none;
+    }
+  }
+
+  div {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+      margin: 0;
+    }
+
+    input {
+      width: 50%;
+      height: 30px;
+      padding: 5px;
+      outline: none;
+      font-size: 18px;
+    }
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(2px);
+    }
+  }
+}

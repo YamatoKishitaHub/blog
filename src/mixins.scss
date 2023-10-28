@@ -1,0 +1,13 @@
+$mid: 880px;
+$sp: 420px;
+
+@mixin mid {
+  @media screen and (max-width: $mid) {
+    @content;
+  }
+}
+@mixin sp {
+  @media screen and (max-width: $sp) {
+    @content;
+  }
+}

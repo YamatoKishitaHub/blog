@@ -1,0 +1,32 @@
+.loginPage {
+  text-align: center;
+
+  div {
+    font-size: 20px;
+
+    &.hidden {
+      display: none;
+    }
+  }
+
+  .loginButtons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 20px;
+
+    button {
+      padding: 5px 10px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: all 0.3s;
+      width: 300px;
+      gap: 10px;
+      margin: 0px auto;
+
+      &:hover {
+        transform: translateY(2px);
+      }
+    }
+  }
+}

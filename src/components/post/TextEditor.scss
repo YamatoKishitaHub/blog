@@ -1,0 +1,53 @@
+.textEditor {
+  .rdw-editor-toolbar {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid gray;
+
+    &>div {
+      width: auto;
+
+      .rdw-option-wrapper {
+        width: auto;
+      }
+    }
+
+    .blockType {
+      padding: 1px;
+      border: 0.5px solid gray;
+
+      .rdw-option-active {
+        border: 0.5px solid gray;
+      }
+    }
+
+    .rdw-block-wrapper,
+    .rdw-fontsize-wrapper,
+    .rdw-fontfamily-wrapper {
+      .rdw-dropdown-carettoopen {
+        width: 1px;
+      }
+    }
+  }
+
+  .editor {
+    padding: 5px;
+    margin: -1px auto 0;
+    width: calc(60% + 12px);
+    border: 1px solid gray;
+    overflow: hidden scroll;
+    font-size: 20px;
+
+    div {
+      text-align: left;
+    }
+
+    .public-DraftEditor-content {
+      height: 400px;
+
+      .public-DraftStyleDefault-block {
+        margin: 0;
+      }
+    }
+  }
+}
